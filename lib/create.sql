@@ -3,15 +3,15 @@ CREATE TABLE users (
   name TEXT,
   age INTEGER); 
   
-  CREATE TABLE projects (
+CREATE TABLE projects (
   id INTEGER PRIMARY KEY,
   title TEXT,
   category TEXT,
-  funding_goal INTEGER,
-  start_date INTEGER,
-  end_date INTEGER);
+  funding_goal FLOAT,
+  start_date TEXT,
+  end_date TEXT);
 
 
 
-projects (id, title, category, funding_goal, start_date, end_date)
+
 
