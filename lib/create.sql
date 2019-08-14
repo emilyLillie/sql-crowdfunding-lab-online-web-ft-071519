@@ -1,4 +1,7 @@
-CREATE TABLE 
+CREATE TABLE users (
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  age INTEGER); 
 
 
 (id, name, age) VALUES (1, 'Finnebar', 17), (2, 'Bear', 6), (3, 'Iguana', 4), (4, 'Alex', 33),
